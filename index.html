@@ -26,7 +26,7 @@
 
 		<!-- 5 different item options across three rows. If all 3 match, you triple your money regardles of the card item. -->
 		<div class="machine">
-			<h3 class="instructions">Match one = lose your bet &#8226; Match two = keep your score &#8226; Match all = double your bet! </h3>
+		<section class="color-fill">
 			<section class="slots">
 			<div class="wrapper">
 				<ul class="col1">
@@ -58,13 +58,27 @@
 		</section>
 
 		<div class="buttons">
-			<label>Min $</label>
-			<input type="button" id="min" value="10">
-			<label for="">Max $</label>
-			<input type="button" id="max" value="100">
-			<button type="button" name="button">PLAY</button>
+			<div class="min-max-buttons">
+				<div class="min-button">
+					<label>Min $</label>
+					<input type="button" id="min" value="10">
+				</div>
+				<div class="max-button">
+					<label for="">Max $</label>
+					<input type="button" id="max" value="100">
+				</div>
+			</div>
+			<button type="button" id="play" name="button">PLAY</button>
 			<button type="button" id = "reloadWallet" name="button">&#36;Reload Wallet&#36;</button>
 		</div>
+		<h3 class="instructions">
+			<ul>
+			<li>Match one = lose your bet</li>
+			<li>Match two = keep your score</li>
+			<li>Match all = double your bet!</li>
+			</ul>
+		</h3>
+		</section>
 		</div>
 		<script type="text/javascript" src="js/main2.js" >
 
