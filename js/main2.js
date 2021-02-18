@@ -69,7 +69,8 @@ function calculateBet() {
     console.log(random)
 
     //select images to display based on random number
-    if (random < 4) {
+
+    if (random < 3) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -90,7 +91,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "inline-flex";
         document.querySelector('#col3-cash').style.display = "none";        
     }
-    if (random < 7) {
+    else if (random < 5) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "inline-flex";
@@ -111,7 +112,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "inline-flex";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 10) {
+    else if (random < 8) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -132,7 +133,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "inline-flex";        
     } 
-    if (random <14) {
+    else if (random <11) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -142,7 +143,7 @@ function calculateBet() {
         document.querySelector('#col1-cash').style.display = "none";
 
         document.querySelector('#col2-coins').style.display = "none";        
-        document.querySelector('#col2-rooster').style.display = "";        
+        document.querySelector('#col2-rooster').style.display = "none";        
         document.querySelector('#col2-lily').style.display = "none";        
         document.querySelector('#col2-car').style.display = "inline-flex";        
         document.querySelector('#col2-cash').style.display = "none";
@@ -153,12 +154,12 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 18) {
+    else if (random < 13) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "none";
-        document.querySelector('#col1-lily').style.display = "inline-flex";
+        document.querySelector('#col1-lily').style.display = "none";
         document.querySelector('#col1-car').style.display = "none";
         document.querySelector('#col1-cash').style.display = "inline-flex";
 
@@ -174,7 +175,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "inline-flex";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 22) {
+    else if (random < 16) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -195,10 +196,10 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 26) {
+    else if (random < 19) {
         console.log("less than 33")
 
-        document.querySelector('#col1-coins').style.display = "ninline-flexone";
+        document.querySelector('#col1-coins').style.display = "inline-flex";
         document.querySelector('#col1-rooster').style.display = "none";
         document.querySelector('#col1-lily').style.display = "none";
         document.querySelector('#col1-car').style.display = "none";
@@ -216,7 +217,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "inline-flex";        
     } 
-    if (random < 29) {
+    else if (random < 21) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -237,7 +238,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 33) {
+    else if (random < 24) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -258,7 +259,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 367) {
+    else if (random < 27) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -279,7 +280,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
-    if (random < 41) {
+    else if (random < 30) {
         console.log("less than 33")
 
         document.querySelector('#col1-coins').style.display = "none";
@@ -300,9 +301,157 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";        
     } 
+    else if (random < 33) {
+        console.log("less than 33")
 
-    // RANDOM NUMBERS BETWEEN 40 AND 80 (ONE PAIR)
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "inline-flex";
+        document.querySelector('#col1-car').style.display = "none";
+        document.querySelector('#col1-cash').style.display = "none";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "inline-flex";
+        
+        document.querySelector('#col3-coins').style.display = "inline-flex";
+        document.querySelector('#col3-rooster').style.display = "none";
+        document.querySelector('#col3-lily').style.display = "none";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";        
+    }
+    else if (random < 35) {
+        console.log("less than 33")
+
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "none";
+        document.querySelector('#col1-car').style.display = "none";
+        document.querySelector('#col1-cash').style.display = "inline-flex";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "inline-flex";        
+        document.querySelector('#col2-cash').style.display = "none";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "none";
+        document.querySelector('#col3-lily').style.display = "inline-flex";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";        
+    }
+    else if (random < 37) {
+        console.log("less than 33")
+
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "none";
+        document.querySelector('#col1-car').style.display = "inline-flex";
+        document.querySelector('#col1-cash').style.display = "none";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "inline-flex";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "inline-flex";
+        document.querySelector('#col3-lily').style.display = "none";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";        
+    }
+    else if (random < 39) {
+        console.log("less than 33")
+
+        document.querySelector('#col1-coins').style.display = "inline-flex";
+        document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "none";
+        document.querySelector('#col1-car').style.display = "none";
+        document.querySelector('#col1-cash').style.display = "none";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "inline-flex";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "none";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "none";
+        document.querySelector('#col3-lily').style.display = "none";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "inline-flex";        
+    }
+    else if (random < 42) {
+        console.log("less than 42")
+
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "inline-flex";
+        document.querySelector('#col1-lily').style.display = "none";
+        document.querySelector('#col1-car').style.display = "none";
+        document.querySelector('#col1-cash').style.display = "none";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "inline-flex";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "none";
+        document.querySelector('#col3-lily').style.display = "inline-flex";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";        
+    }
     else if (random < 45) {
+        console.log("less than 33")
+
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "none";
+        document.querySelector('#col1-car').style.display = "inline-flex";
+        document.querySelector('#col1-cash').style.display = "none";
+
+        document.querySelector('#col2-coins').style.display = "inline-flex";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "none";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "none";
+        document.querySelector('#col3-lily').style.display = "inline-flex";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";        
+    }
+
+    // RANDOM NUMBERS BETWEEN 46 AND 82 (ONE PAIR)
+
+    else if (random < 48) {
+        console.log("between 33 and 67")
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "none";
+        document.querySelector('#col1-car').style.display = "none";
+        document.querySelector('#col1-cash').style.display = "inline-flex";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "none";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "inline-flex";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "none";
+        document.querySelector('#col3-lily').style.display = "inline-flex";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";
+    }
+
+    else if (random < 50) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "none";
@@ -322,31 +471,11 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";
     }
-    else if (random < 50) {
+    else if (random < 54) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "inline-flex";
         document.querySelector('#col1-rooster').style.display = "none";
         document.querySelector('#col1-lily').style.display = "none";
-        document.querySelector('#col1-car').style.display = "none";
-        document.querySelector('#col1-cash').style.display = "none";
-
-        document.querySelector('#col2-coins').style.display = "none";        
-        document.querySelector('#col2-rooster').style.display = "inline-flex";        
-        document.querySelector('#col2-lily').style.display = "none";        
-        document.querySelector('#col2-car').style.display = "none";        
-        document.querySelector('#col2-cash').style.display = "none";
-        
-        document.querySelector('#col3-coins').style.display = "none";
-        document.querySelector('#col3-rooster').style.display = "inline-flex";
-        document.querySelector('#col3-lily').style.display = "none";
-        document.querySelector('#col3-car').style.display = "none";
-        document.querySelector('#col3-cash').style.display = "none";
-    }
-    else if (random < 54) {
-        console.log("between 33 and 67")
-        document.querySelector('#col1-coins').style.display = "none";
-        document.querySelector('#col1-rooster').style.display = "none";
-        document.querySelector('#col1-lily').style.display = "inline-flex";
         document.querySelector('#col1-car').style.display = "none";
         document.querySelector('#col1-cash').style.display = "none";
 
@@ -366,6 +495,26 @@ function calculateBet() {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "none";
+        document.querySelector('#col1-lily').style.display = "inline-flex";
+        document.querySelector('#col1-car').style.display = "none";
+        document.querySelector('#col1-cash').style.display = "none";
+
+        document.querySelector('#col2-coins').style.display = "none";        
+        document.querySelector('#col2-rooster').style.display = "inline-flex";        
+        document.querySelector('#col2-lily').style.display = "none";        
+        document.querySelector('#col2-car').style.display = "none";        
+        document.querySelector('#col2-cash').style.display = "none";
+        
+        document.querySelector('#col3-coins').style.display = "none";
+        document.querySelector('#col3-rooster').style.display = "inline-flex";
+        document.querySelector('#col3-lily').style.display = "none";
+        document.querySelector('#col3-car').style.display = "none";
+        document.querySelector('#col3-cash').style.display = "none";
+    }
+    else if (random < 62) {
+        console.log("between 33 and 67")
+        document.querySelector('#col1-coins').style.display = "none";
+        document.querySelector('#col1-rooster').style.display = "none";
         document.querySelector('#col1-lily').style.display = "none";
         document.querySelector('#col1-car').style.display = "inline-flex";
         document.querySelector('#col1-cash').style.display = "none";
@@ -382,7 +531,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "inline-flex";
         document.querySelector('#col3-cash').style.display = "none";
     }
-    else if (random < 62) {
+    else if (random < 66) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "inline-flex";
         document.querySelector('#col1-rooster').style.display = "none";
@@ -402,7 +551,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "inline-flex";
     }
-    else if (random < 67) {
+    else if (random < 70) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "inline-flex";
@@ -422,7 +571,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "inline-flex";
         document.querySelector('#col3-cash').style.display = "none";
     }
-    else if (random < 71) {
+    else if (random < 74) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "none";
@@ -442,7 +591,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "inline-flex";
     }
-    else if (random < 76) {
+    else if (random < 78) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "none";
@@ -462,7 +611,7 @@ function calculateBet() {
         document.querySelector('#col3-car').style.display = "none";
         document.querySelector('#col3-cash').style.display = "none";
     }
-    else if (random < 80) {
+    else if (random < 82) {
         console.log("between 33 and 67")
         document.querySelector('#col1-coins').style.display = "none";
         document.querySelector('#col1-rooster').style.display = "none";
@@ -588,7 +737,7 @@ function calculateBet() {
     }
 
 
-        if (random <= 40) {
+        if (random <= 46) {
         let newWallet = myWallet - bet;
         if (myWallet > 0) {
         document.querySelector('#wallet').innerText = newWallet
@@ -596,10 +745,15 @@ function calculateBet() {
         console.log(newWallet)
         return myWallet
             } else if (myWallet <= 0) {
-          document.querySelector('span').style.display = "none"
-          document.querySelector('h2').innerText = `You are out of money!`
-        }
-        } else if (random <= 80) {
+        //   document.querySelector('span').style.display = "none"
+          document.querySelector('#reloadWallet').addEventListener('click', reloadWallet);
+          document.querySelector('p').innerText = `You are out of money!`
+          document.querySelector('#min').disabled = true;
+          document.querySelector('#max').disabled = true;
+          document.querySelector('#play').disabled = true;
+          }
+    
+        } else if (random <= 82) {
             let newWallet = myWallet;
             if (myWallet > 0) {
             document.querySelector('#wallet').innerText = newWallet
@@ -607,9 +761,13 @@ function calculateBet() {
             console.log(newWallet)
             return myWallet
             } else if (myWallet <= 0) {
-          document.querySelector('span').style.display = "none"
-          document.querySelector('h2').innerText = `You are out of money!`
-        }
+        //   document.querySelector('span').style.display = "none"
+          document.querySelector('#reloadWallet').addEventListener('click', reloadWallet);
+          document.querySelector('p').innerText = `You are out of money!`
+          document.querySelector('#min').disabled = true;
+          document.querySelector('#max').disabled = true;
+          document.querySelector('#play').disabled = true;
+          }
         } else if (random <= 100) {
             let newWallet = myWallet + bet*2;
             if (myWallet > 0) {
@@ -618,18 +776,23 @@ function calculateBet() {
             console.log(newWallet)
             return myWallet
             } else if (myWallet <= 0) {
-        document.querySelector('span').style.display = "none"
-        document.querySelector('h2').innerText = `You are out of money!`
+        // document.querySelector('span').style.display = "none"
+        console.log(myWallet);
+        document.querySelector('#reloadWallet').addEventListener('click', reloadWallet);
+        document.querySelector('p').innerText = `You are out of money!`
+        document.querySelector('#min').disabled = true;
+        document.querySelector('#max').disabled = true;
+        document.querySelector('#play').disabled = true;
         }
         }
-    // END OF CALCULATE BET FUNCTION        
     }
+    // END OF CALCULATE BET FUNCTION        
 
     // RELOAD WALLET
     document.querySelector('#reloadWallet').addEventListener('click', reloadWallet);
 
     function reloadWallet() {
-        document.querySelector('#wallet').innerText = 500;
+        window.location.reload();
     }
 
 
