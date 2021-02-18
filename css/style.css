@@ -14,7 +14,7 @@
 /*******************************************/
 
 
-@media only screen and (min-width: 1100px) {
+/* @media only screen and (min-width: 1001px) { */
   body {
     margin: auto;
     width: 100vw;
@@ -51,7 +51,6 @@
   h2, h3 {
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
     margin-bottom: 0;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 4rem;
@@ -65,15 +64,12 @@
     border: 1px solid black;
     border-radius: 15px;
     width: 85vw;
-    height: 40vh;
+    height: 60vh;
   }
 
-  .color-fill {
-    background-image: radial-gradient(white, silver, rgb(118, 118, 118));
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 85vw;
-    height: 70vh;
+  h3.instructions {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .wrapper {
@@ -82,15 +78,16 @@
 
   .slots {
     display: flex;
-    flex-wrap: no-wrap;
     justify-content: space-evenly;
     text-align: center;
   }
 
   li {
     list-style-type: none;
+    margin-top: 40px;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 2rem;
+    padding-left: 45%;
   }
 
    #col1-coins, #col2-coins, #col3-coins {
@@ -152,8 +149,8 @@
     justify-content: center;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 2rem;
-    max-width: 80vw;
-    min-width: 60vw;
+    max-width: 70vw;
+    min-width: 30vw;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -165,12 +162,6 @@
     border-radius: 5px;
   }
 
-  .min-max-buttons {
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
   .buttons button {
     background-color: green;
     padding: .5rem 1rem;
@@ -180,30 +171,9 @@
   .buttons > label:nth-of-type(2), .buttons button {
     margin-left: 40px;
   }
+/* } */
 
-  h3.instructions {
-    font-size: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    line-height: 2rem;
-  }
-
-  h3 ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  h3 li {
-    padding-right: 30px;
-    padding-top: 1rem;
-  }
-
-}
-
-@media only screen and (max-width: 1099px) {
+@media only screen and (max-width: 1000px) {
   body {
     margin: auto;
     width: 100vw;
@@ -230,8 +200,6 @@
   header > p {
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: -2%;
-    margin-top: -3%;
     font-size: 2.25rem;
     font-family: 'Sarina', cursive;
     font-style: italic;
@@ -258,12 +226,9 @@
     height: 60vh;
   }
 
-  .color-fill {
-    background-image: radial-gradient(white, silver, rgb(118, 118, 118));
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 85vw;
-    height: 60vh;
+  h3.instructions {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .wrapper {
@@ -278,9 +243,10 @@
 
   li {
     list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 40px;
     font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem;
+    padding-left: 45%;
   }
 
    #col1-coins, #col2-coins, #col3-coins {
@@ -337,31 +303,14 @@
   .buttons {
     display: flex;
     justify-content: center;
-    flex-wrap: no-wrap;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 2rem;
-    max-width: 90vw;
-    min-width: 50vw;
+    max-width: 60vw;
+    min-width: 30vw;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     /* padding: 1rem; */
-  }
-
-  .min-max-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: no-wrap;
-    margin-bottom: 20px;
-    width: 40%;
-  }
-
-  .max-button, .min-button {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
   }
 
   .buttons > input {
@@ -371,36 +320,17 @@
 
   .buttons button {
     background-color: green;
-    padding: .5rem .8rem;
+    padding: .5rem 1rem;
     border-radius: 5px;
   } 
 
   .buttons > label:nth-of-type(2), .buttons button {
     margin-left: 40px;
   }
-
-  h3.instructions {
-    font-size: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1rem;
-    color: black;
-  }
-
-  h3 ul {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: column;
-  }
-
-  h3 ul li {
-    padding-top: 1.5rem;
-  }
-
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 850px) {
   body {
     margin: auto;
     width: 100vw;
@@ -452,20 +382,13 @@
     border: 1px solid black;
     border-radius: 15px;
     width: 85vw;
-    /* height: 55vh; */
-  }
-  .color-fill {
-    background-image: radial-gradient(white, silver, rgb(118, 118, 118));
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 85vw;
-    height: 60vh;
+    height: 55vh;
   }
 
-  /* h3.instructions {
+  h3.instructions {
     font-size: 1.75rem;
     text-align: center;
-  } */
+  }
 
   .wrapper {
     display: block;
@@ -480,8 +403,10 @@
 
   li {
     list-style-type: none;
+    margin-top: 40px;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 2rem;
+    padding-left: 45%;
   }
 
    #col1-coins, #col2-coins, #col3-coins {
@@ -539,15 +464,12 @@
   }
 
   .buttons {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Hammersmith One', sans-serif;
     font-size: 1.8rem;
     max-width: 65vw;
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     /* padding: 1rem; */
@@ -558,33 +480,11 @@
     border-radius: 5px;
   }
 
-  .min-max-buttons {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    width: 40%;
 
-  }
 
   .buttons > label:nth-of-type(2), .buttons button {
     margin-left: 40px;
   }
-  
-  h3.instructions {
-    font-size: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1rem;
-    color: black;
-  }
-
-  h3 ul {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: column;
-  }
-
 }
 
 @media only screen and (max-width: 700px) {
@@ -634,19 +534,16 @@
   .machine {
     display: block;
     margin: 0 auto;
-    /* background-image: radial-gradient(white, silver, rgb(118, 118, 118));
+    background-image: radial-gradient(white, silver, black);
     border: 1px solid black;
     border-radius: 15px;
     width: 85vw;
-    height: 40vh; */
+    height: 50vh;
   }
 
-  .color-fill {
-    background-image: radial-gradient(white, silver, rgb(118, 118, 118));
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 85vw;
-    height: 60vh;
+  h3.instructions {
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .wrapper {
@@ -662,9 +559,10 @@
 
   li {
     list-style-type: none;
+    margin-top: 40px;
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.75rem;
-    line-height: 1rem;
+    font-size: 2rem;
+    padding-left: 45%;
   }
 
    #col1-coins, #col2-coins, #col3-coins {
@@ -721,17 +619,13 @@
     /* display: none; */
   }
 
-
   .buttons {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.8rem;
-    max-width: 75vw;
+    font-size: 1.3rem;
+    max-width: 55vw;
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     /* padding: 1rem; */
@@ -742,32 +636,8 @@
     border-radius: 5px;
   }
 
-  .min-max-buttons {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    width: 80%;
 
-  }
 
-  .buttons > label:nth-of-type(2), .buttons button {
-    margin-left: 40px;
-  }
-  
-  h3.instructions {
-    font-size: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1rem;
-    color: black;
-  }
-
-  h3 ul {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: column;
-  }
 
 }
 
@@ -816,19 +686,18 @@
   .machine {
     display: block;
     margin: 0 auto;
-    /* background-image: radial-gradient(white, silver, rgb(118, 118, 118));
-    border: 1px solid black;
-    border-radius: 15px;
-    width: 85vw;
-    height: 40vh; */
-  }
-
-  .color-fill {
     background-image: radial-gradient(white, silver, rgb(118, 118, 118));
     border: 1px solid black;
     border-radius: 15px;
     width: 85vw;
-    height: 60vh;
+    height: 40vh;
+  }
+
+  h3.instructions {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   .wrapper {
@@ -836,6 +705,7 @@
   }
 
   .slots {
+    margin-top: -2vh;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -843,8 +713,10 @@
 
   li {
     list-style-type: none;
-    /* margin-top: 20px; */
+    margin-top: 40px;
     font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem;
+    padding-left: 45%;
   }
 
    #col1-coins, #col2-coins, #col3-coins {
@@ -905,20 +777,15 @@
 
 
   .buttons {
-    display: block;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1rem;
+    max-width: 45vw;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.5rem;
-    max-width: 60vw;
-    margin-top: 20px;
-  }
-
-  .min-max-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
+    /* padding: 1rem; */
   }
 
   .buttons > input {
@@ -928,30 +795,10 @@
 
   .buttons button {
     background-color: green;
+    /* padding: .5rem 1rem; */
     border-radius: 5px;
-    margin-bottom: 10px;
   } 
 
-  h3.instructions {
-    font-size: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-
-  }
-
-  h3 ul {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: column;
-
-  }
-
-  h3 ul li {
-    line-height: .5rem;
-    font-size: 1.5rem;
-
-  }
 
 }
 
@@ -1006,13 +853,18 @@
     height: 50vh;
   }
 
+  h3.instructions {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
   .wrapper {
     display: block;
   }
 
   .slots {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
   }
 
@@ -1032,7 +884,7 @@
     min-height: 90px;
     border: 1px solid black;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
   }
   #col1-rooster, #col2-rooster, #col3-rooster {
     background-image: url("https://i.imgur.com/rrlQAFf.jpg");
@@ -1042,7 +894,7 @@
     min-height: 90px;
     border: 1px solid black;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
   }
   #col1-lily, #col2-lily, #col3-lily {
     background-image: url("https://i.imgur.com/bbuf3qo.jpg");
@@ -1053,7 +905,7 @@
     min-height: 90px;
     border: 1px solid black;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
   }
   #col1-car, #col2-car, #col3-car {
     background-image: url("https://i.imgur.com/uvWIw4Z.jpg");
@@ -1063,7 +915,7 @@
     min-height: 90px;
     border: 1px solid black;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
   }
   #col1-cash, #col2-cash, #col3-cash {
     background-image: url("https://i.imgur.com/qqqt1DP.jpg");
@@ -1073,24 +925,21 @@
     min-height: 90px;
     border: 1px solid black;
     border-radius: 10px;
-    display: none;
+    /* display: none; */
   }
+
 
   .buttons {
-    display: block;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1rem;
+    max-width: 60vw;
+    min-width: 30vw;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.5rem;
-    max-width: 60vw;
-    margin-top: 20px;
-  }
-
-  .min-max-buttons {
-    display: flex;
-    justify-content: space-evenly;
-    width: 80%;
+    /* padding: 1rem; */
   }
 
   .buttons > input {
@@ -1100,34 +949,12 @@
 
   .buttons button {
     background-color: green;
+    padding: .5rem 1rem;
     border-radius: 5px;
-    margin-bottom: 10px;
   } 
 
-  h3.instructions {
-    font-size: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-
-  }
-
-  h3 ul {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: column;
-
-  }
-
-  h3 ul li {
-    line-height: .5rem;
-    font-size: 1.5rem;
-
-  }
-
-
-  /* .buttons > label:nth-of-type(2), .buttons button {
+  .buttons > label:nth-of-type(2), .buttons button {
     margin-left: 40px;
-  } */
+  }
   
 } 
