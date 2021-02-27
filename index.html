@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Slot Machine</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<!-- Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update -->
+		<header>
+		<h1>Slot Machine!</h1>
+		<p>You miss 100% of the shots you don't take!</p>
+		<h2>Wallet $<span id="wallet"></span></h2>
+		</header>
+
+		<!-- 5 different item options across three rows. If all 3 match, you triple your money regardles of the card item. -->
+		<div class="machine">
+		<section class="color-fill">
+			<section class="slots">
+			<div class="wrapper">
+				<ul class="col1">
+					<li id="col1-coins" class="col1js" class="coins"></li>
+					<li id="col1-rooster" class="col1js" class="rooster"></li>
+					<li id="col1-lily" class="col1js" class="lily"></li>
+					<li id="col1-car" class="col1js" class="car"></li>
+					<li id="col1-cash" class="col1js" class="cash"></li>
+				</ul>
+			</div>
+			<div class="wrapper">
+				<ul class="col2">
+					<li id="col2-coins" class="col2js" class="coins"></li>
+					<li id="col2-rooster" class="col2js" class="rooster"></li>
+					<li id="col2-lily" class="col2js" class="lily"></li>
+					<li id="col2-car" class="col2js" class="car"></li>
+					<li id="col2-cash" class="col2js" class="cash"></li>
+				</ul>
+			</div>
+			<div class="wrapper">
+				<ul class="col3">
+					<li id="col3-coins" class="col3js" class="coins"></li>
+					<li id="col3-rooster" class="col3js" class="rooster"></li>
+					<li id="col3-lily" class="col3js" class="lily"></li>
+					<li id="col3-car" class="col3js" class="car"></li>
+					<li id="col3-cash" class="col3js" class="cash"></li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="buttons">
+			<div class="min-max-buttons">
+				<div class="min-button">
+					<label>Min $</label>
+					<input type="button" id="min" value="10">
+				</div>
+				<div class="max-button">
+					<label for="">Max $</label>
+					<input type="button" id="max" value="100">
+				</div>
+			</div>
+			<button type="button" id="play" name="button">PLAY</button>
+			<button type="button" id = "reloadWallet" name="button">&#36;Reload Wallet&#36;</button>
+		</div>
+		<h3 class="instructions">
+			<ul>
+			<li>Match one = lose your bet</li>
+			<li>Match two = keep your score</li>
+			<li>Match all = double your bet!</li>
+			</ul>
+		</h3>
+		</section>
+		</div>
+		<script type="text/javascript" src="js/main2.js" >
+
+		document.querySelector('#wallet').value = 500
+		</script>
+	</body>
+</html>
